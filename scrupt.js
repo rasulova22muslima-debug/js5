@@ -6,8 +6,6 @@ for (let i = 1; i <= 10; i++) {
     name: name,
     age: age
   };
-}
-for (let i = 1; i <= 10; i++) {
   console.log(`Пользователь - ${i}`);
   console.log(`Имя - ${users[i].name}`);
   console.log(`Возраст - ${users[i].age}`);
@@ -15,12 +13,16 @@ for (let i = 1; i <= 10; i++) {
 console.log("Общий объект:", users);
 
 
+
+
+
+
 const cart = cartObj();
 
 console.log(cart);
 
 let delivery = 9000;
-let messege = "Вы заказали" ;
+let messege = "Вы заказали";
 
 for (const key in cart) {
   messege += "" + key;
